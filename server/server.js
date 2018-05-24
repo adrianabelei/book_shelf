@@ -30,7 +30,7 @@ const { auth} = require('./middleware/auth')
 app.use(bodyParser.json());
 
 app.use(cookieParser());
-aap.user(express.static('client/build'))
+app.user(express.static('client/build'))
 
 
 // GET //
