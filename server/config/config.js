@@ -7,7 +7,8 @@ const config = {
     },
     default: {
         SECRET: 'supersecretpassword123',
-        DATABASE: 'mongodb://craiglist:123456@ds163119.mlab.com:63119/craiglist',
+        DATABASE: 'mongodb://localhost:27017/booksShelf'
+      //  DATABASE: 'mongodb://craiglist:123456@ds163119.mlab.com:63119/craiglist',
     }
 }
 
